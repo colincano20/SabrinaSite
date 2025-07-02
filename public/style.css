@@ -54,7 +54,7 @@
   /* Sections */
   main {
     padding: 40px 20px;
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
   }
   
@@ -161,4 +161,26 @@ form {
   object-fit: contain;   /* Fit image inside container */
   border-radius: 10px;
   display: block;
+}
+#memoriesContainer {
+  column-count: 5;
+  column-gap: 3px;
+  padding: 0;
+  
+}
+
+#memoriesContainer img {
+  width: 100%;
+  display: block;
+  margin-bottom: 3px; /* no gap between stacked images */
+  break-inside: avoid;
+  border-radius: .25px;
+  border-style: ridge;
+  border-color: BLACK;
+}
+
+#memoriesContainer img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  border-color: white;
 }
