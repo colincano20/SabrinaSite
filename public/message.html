@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SabrinaSite – Message Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <h1><a href ="index.html">SabrinaSite</a></h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="message.html" class="active">Message Board</a></li>
+      <li><a href="memory.html">Memory Lane</a></li>
+      <li><a href="playlist.html">Playlist</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="notes.html">Love Notes</a></li>
+      <li><a href="future.html">Future Plans</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>💬 Message Board</h2>
+      <p>Leave a quick message, a love note, or even just a random thought.</p>
+
+      <form id="messageForm" onsubmit="event.preventDefault(); sendMessage();"> 
+        <input type="text" id="name" placeholder="Your name" required />
+        <textarea id="message" placeholder="Write your message here..." required></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+      <div id="messages"></div>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SabrinaSite. Built with love 💗</p>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+  <script src="message.js"></script>
+  
+</body>
+</html>
