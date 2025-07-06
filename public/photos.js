@@ -40,7 +40,7 @@ const memories = [
     caption: "Sloanes Grad Party🌅"
   },
   {
-    src: "images/image12.jpg",
+    src: "images/image12.JPG",
     caption: "Hangout at my house 🏠"
   },
   {
