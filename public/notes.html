@@ -4,6 +4,18 @@
   <meta charset="utf-8">
   <title></title>
   <link href="style.css" rel="stylesheet" />
+  <style>.note {
+      animation: fadeIn 1s ease-in-out;
+      margin-top: 1.5rem;
+    }
+
+    .date {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #e43ec4;
+      margin-bottom: 1rem;
+    }
+    </style>
 </head>
 <body>
 <nav>
@@ -20,11 +32,12 @@
 </nav>
 <main>
     <section class="notes">
-        <h2>💌 Love Notes</h2>
-        <p>Coming Soon</p>
-        <ul id="noteList">
-            <!-- Love notes will be dynamically added here -->
-        </ul>
+    <h2>💌 Love Note Of The Day</h2>
+    <div id="note-container" class="note">
+    <div class="date" id="note-date"></div>
+    <div class="text" id="note-text"></div>
+  </div>
+
     </section>
 </main>
 
