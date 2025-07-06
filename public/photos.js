@@ -1,7 +1,7 @@
 const memories = [
   {
-    src: "images/image9.jpg", //not working
-    caption: "That time we got ice cream and it melted everywhere 🍦"
+    src: "images/image15.JPG", //not working
+    caption: "ATM Machine",
   },
   {
     src: "images/image2.jpg",
@@ -20,45 +20,47 @@ const memories = [
     caption: "Picnic Date🧺"
   },
   {
-    src: "images/image6.jpg",
-    caption: "Hangout at my house 🏠"
+    src: "images/image6.JPG",
+    caption: "Saint Charles Car"
   },
   {
-    src: "images/image7.jpg",
-    caption: "Sloanes Grad Party🌅"
+    src: "images/image7.JPG",
+    caption: "Bojames"
   },
   {
-    src: "images/image8.jpg",
-    caption: "Hangout at my house 🏠"
+    src: "images/image8.JPG",
+    caption: "Spoco Kissing"
   },
   {
-    src: "images/image10.JPG", 
-    caption: "Picnic Date🧺"
+    src: "images/image9.JPG", 
+    caption: "Brothers Booth"
   },
   {
-    src: "images/image11.jpg",
-    caption: "Sloanes Grad Party🌅"
+    src: "images/image10.JPG",
+    caption: "Sabrina's Dorm"
   },
   {
-    src: "images/image12.JPG",
-    caption: "Hangout at my house 🏠"
+    src: "images/image11.JPG",
+    caption: "Elrays"
   },
   {
-    src: "images/image13.JPG", 
-    caption: "Picnic Date🧺"
+    src: "images/image12.JPG", 
+    caption: "Spoco I AM MUSIC"
   },
   {
-    src: "images/image14.jpg",
-    caption: "Sloanes Grad Party🌅"
+    src: "images/image13.JPG",
+    caption: "Tyler's Dorm"
   },
   {
-    src: "images/image15.jpg",
-    caption: "Hangout at my house 🏠"
+    src: "images/image14.JPG",
+    caption: "After Shower"
   },
   {
-    src: "images/image16.JPG", 
-    caption: "Picnic Date🧺"
+    src: "images/image16.JPG",
+    caption: "Reunion"
   },
+  
+  
   // Add more memories as needed
 ];
 const container = document.getElementById("memoriesContainer");
