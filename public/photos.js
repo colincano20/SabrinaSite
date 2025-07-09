@@ -59,6 +59,18 @@ const memories = [
     src: "images/image16.JPG",
     caption: "Reunion"
   },
+  {
+    src: "images/image17.JPG",
+    caption: "Parking Garage"
+  },
+  {
+    src: "images/image18.JPG",
+    caption: "Selfie of us together"
+  },
+  {
+    src: "images/image19.JPG",
+    caption: "Hotel Mirror Photo"
+  },
   
   
   // Add more memories as needed
