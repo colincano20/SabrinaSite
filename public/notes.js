@@ -1,3 +1,4 @@
+
 const notes = {
   "2025-07-08": "Day 1 without you and I already miss your smile. Have so much fun in Bosnia!",
   "2025-07-09": "Day 2 — You poor thing, I hope these long flights aren't too exhausting. Make sure to eat well and rest up!",
