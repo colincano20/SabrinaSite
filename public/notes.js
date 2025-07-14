@@ -7,7 +7,7 @@ const notes = {
   "2025-07-12": "Day 5 — I hope you're having the time of your life. I can't wait to hear all about it.",
   "2025-07-13": "Day 6 — Counting down the days till I see your face again!",
   "2025-07-14": "Day 7 — I miss our late night facetimes. Hope you're making new memories!",
-  "2025-07-15": "Day 8 — Hi Sabrina, I just wanted to say how happy I am of you for taking this trip. You're so brave and adventurous.",
+  "2025-07-15": "Day 8 — Hi Sabrina, I just wanted to say how happy I am of you for actually going on this trip. Text me 'ping pong balls' for a funny joke.",
   "2025-07-16": "Day 9 — Our photos together keep me smiling.",
   "2025-07-17": "Day 10 — I hope you're taking lots of pictures. I want to see everything when you get back!",
   "2025-07-18": "Day 11 — I miss you so much, but I know you're having an amazing time. Just remember, I'm always here for you.",

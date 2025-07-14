@@ -1,6 +1,6 @@
  let countdownInterval;
  function updateCountdown() {
-    const futureDate = new Date(2025, 6, 12); // Months are 0-indexed, so 6 = July
+    const futureDate = new Date(2025, 7, 12); // Months are 0-indexed, so 6 = July
     console.log(futureDate);
     const now = new Date();
     const timestamp1 = futureDate.getTime();
