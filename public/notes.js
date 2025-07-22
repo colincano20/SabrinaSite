@@ -15,7 +15,7 @@ const notes = {
   "2025-07-20": "Day 13 — Beba, I hope you're enjoying every moment. You are so loved and missed.",
   "2025-07-21": "Day 14 — I can't believe it's been two weeks already. Time flies when you're having fun, right?",
   "2025-07-22": "Day 15 — Last day of your trip! I hope you had the best time ever. Get home safe!",
-  "2025-07-23": "Day 16 — You should be home today! I can't wait to see you. I love you so much, Sabrina.",
+  "2025-07-23": "Day 16 — You should be home today! I can't wait to see you on Saturday. I love you so much, Sabrina.",
 };
 
 const today = new Date().toISOString().split('T')[0];
