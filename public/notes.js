@@ -32,26 +32,24 @@ const notes = {
   "2025-08-06": "I thought about you today. Then I did it again. And again. And then 20 more times.",
   "2025-08-07": "I can't wait to have you back in my arms. That first hug might actually heal something in me.",
   "2025-08-08": "Random but important: I love when you send me TikToks and Instagram reels.",
-  "2025-08-09": "I saw something that smelled like the perfume I bough you today and it made me think of you. I hope you're wearing it rn.",
-  "2025-08-10": "No one has ever made me feel the way you do — calm, happy, and just… whole.",
-  "2025-08-11": "I miss rubbing your back while you pretend not to fall asleep on FaceTime.",
-  "2025-08-12": "Your texts still make me smile like they did the first time we started talking. Maybe even more now.",
-  "2025-08-13": "Don’t ask me how I know, but I feel like you looked extra pretty today.",
-  "2025-08-14": "Your voice is still stuck in my head. I don’t even want it out.",
-  "2025-08-15": "I miss watching you talk about things you love. The way your face lights up — I live for that.",
-  "2025-08-16": "Somewhere in Bosnia there’s a place that’s lucky to have you standing in it today.",
-  "2025-08-17": "When you get back, I’m taking you on a date. No arguing. Yes, I already have ideas.",
-  "2025-08-18": "I hope today you laughed hard, took a good photo, and felt a little burst of joy. If not, this note is trying.",
-  "2025-08-19": "You’ve got this peaceful energy when you're calm, and I swear it makes everything else feel okay too.",
-  "2025-08-20": "Not to be cheesy, but being your boyfriend is kinda the best thing I’ve ever done.",
-  "2025-08-21": "I’d literally listen to a voice memo of you just rambling about your day. You’re my favorite background noise.",
-  "2025-08-22": "One day closer to seeing you. And yeah, I’ve been counting. I love you, Sabrina.",
+  
 
 
 };
 
-const today = new Date().toISOString().split('T')[0];
-const noteText = notes[today] || "No note today, but just know I’m thinking of you. ❤️ They start 7/8";
+function getCentralDate() {
+  const nowUTC = new Date();
+
+  // Central Daylight Time in July/August is UTC-5
+  const offsetCT = -5;
+  const nowCT = new Date(nowUTC.getTime() + offsetCT * 60 * 60 * 1000);
+
+  // Format as YYYY-MM-DD
+  return nowCT.toISOString().split('T')[0];
+}
+
+const todayKey = getCentralDate();
+const noteText = notes[todayKey] || "No note today, but just know I’m thinking of you. ❤️";
 
 document.getElementById("note-date").textContent = new Date().toDateString();
 document.getElementById("note-text").textContent = noteText;
