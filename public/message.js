@@ -42,6 +42,7 @@ function loadMessages() {
     const messagesDiv = document.getElementById("messages");
     db.collection("messages")
       .orderBy("timestamp", "desc")
+      .limit(10)
       .onSnapshot(snapshot => {
           messagesDiv.innerHTML = "";
           snapshot.forEach(doc => {
