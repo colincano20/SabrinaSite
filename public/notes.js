@@ -32,6 +32,12 @@ const notes = {
   "2025-08-06": "I thought about you today. Then I did it again. And again. And then 20 more times.",
   "2025-08-07": "I can't wait to have you back in my arms. That first hug might actually heal something in me.",
   "2025-08-08": "Random but important: I love when you send me TikToks and Instagram reels.",
+  "2025-09-16": "Just a little note to say I love you and I hope you're having a great day! ",
+  "2025-09-17": "Thinking of you and hoping your day is as wonderful as you are! ",
+  "2025-09-18": "Sending you a big virtual hug! Can't wait to see you again soon. ",
+  "2025-09-19": "Hope you're smiling today! Remember, I'm always here for you. ",
+  "2025-09-20": "Just wanted to remind you how amazing you are. Keep being your awesome self! 💖",
+  "2025-09-21": "Sabrina, I MISS YOU SO MUCH",
   
 
 
